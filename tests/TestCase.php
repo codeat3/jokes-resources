@@ -2,9 +2,9 @@
 
 namespace Codeat3\JokesResources\Tests;
 
+use Codeat3\JokesResources\JokesResourcesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codeat3\JokesResources\JokesResourcesServiceProvider;
 
 class TestCase extends Orchestra
 {

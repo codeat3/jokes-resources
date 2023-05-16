@@ -2,8 +2,8 @@
 
 namespace Codeat3\JokesResources\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUlids;
+use Illuminate\Database\Eloquent\Model;
 
 class Irkfdb extends Model
 {
@@ -11,6 +11,6 @@ class Irkfdb extends Model
 
     public function getConnectionName()
     {
-        return config('irkfdb.database.connection');
+        return config('jokes-resources.database.connection');
     }
 }

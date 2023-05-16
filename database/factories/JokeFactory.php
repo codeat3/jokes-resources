@@ -2,6 +2,7 @@
 
 namespace Codeat3\JokesResources\Database\Factories;
 
+use Codeat3\JokesResources\Models\Joke;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -9,6 +10,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class JokeFactory extends Factory
 {
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Joke::class;
+
     /**
      * Define the model's default state.
      *

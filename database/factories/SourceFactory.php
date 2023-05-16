@@ -1,7 +1,8 @@
 <?php
 
-namespace Database\Factories;
+namespace Codeat3\JokesResources\Database\Factories;
 
+use Codeat3\JokesResources\Models\Source;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -9,6 +10,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class SourceFactory extends Factory
 {
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Source::class;
+
     /**
      * Define the model's default state.
      *
